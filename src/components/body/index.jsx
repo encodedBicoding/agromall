@@ -52,7 +52,7 @@ function Body() {
       <div className="flex-column-center sp-text">
         <div className="flex-column-center our_story w-40">
             <h1>Hear Our Story</h1>
-            <img src={require('../../assets/images/boy_o_boy.svg')} alt="agrocrop hear our story" width="80%" height="auto"/>
+            <img src={require('../../assets/images/boy_o_boy.svg')} alt="agrocrop hear our story" width="100%" height="auto"/>
             <div className="bending_curve"></div>
         </div>
       </div>
