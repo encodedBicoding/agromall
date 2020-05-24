@@ -8,7 +8,7 @@ function CloserLook() {
         <div className="closer_look"></div>
         <div className="closer_look_body flex-column-center">
             <div className="closer_look_contents">
-              <div>
+              <div className="cl_title">
                 <h1>A Closer Look</h1>
               </div>
               <div className="look_grid">
