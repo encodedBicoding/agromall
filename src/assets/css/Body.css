@@ -424,4 +424,8 @@ ________________________________________________
   .mobile_navigator {
     margin-right: 30px;
   }
+  .cl_title h1{
+    text-align: center;
+    font-size: 30px;
+  }
 }
