@@ -74,16 +74,16 @@ function Body() {
               <div className="footer_logo">
                 <img src={require('../../assets/images/logo2.svg')} alt="footer logo"/>
                 <div className="copy_rights">
-                  <p>
+                  <p className="font-small">
                     {
-                      `Copy right ${new Date().getFullYear()} AgroMall Discovery and Extension Limited
+                      `Copyright ${new Date().getFullYear()} AgroMall Discovery and Extension Limited
                       All rights reserved`
                     }
                   </p>
                 </div>
               </div>
               <div className="copy_links">
-                <nav className="flex-column">
+                <nav className="flex-column font-small">
                     <h3>Links</h3>
                     <a>Users</a>
                     <a>State</a>
