@@ -52,7 +52,7 @@ function Body() {
       <div className="flex-column-center sp-text">
         <div className="flex-column-center our_story w-40">
             <h1>Hear Our Story</h1>
-            <img src={require('../../assets/images/boy_o_boy.svg')} alt="agrocrop hear our story" width="80%" height="auto"/>
+            <img src={require('../../assets/images/boy_o_boy.svg')} alt="agrocrop hear our story" width="100%" height="auto"/>
             <div className="bending_curve"></div>
         </div>
       </div>
@@ -74,16 +74,16 @@ function Body() {
               <div className="footer_logo">
                 <img src={require('../../assets/images/logo2.svg')} alt="footer logo"/>
                 <div className="copy_rights">
-                  <p>
+                  <p className="font-small">
                     {
-                      `Copy right ${new Date().getFullYear()} AgroMall Discovery and Extension Limited
+                      `Copyright ${new Date().getFullYear()} AgroMall Discovery and Extension Limited
                       All rights reserved`
                     }
                   </p>
                 </div>
               </div>
               <div className="copy_links">
-                <nav className="flex-column">
+                <nav className="flex-column font-small">
                     <h3>Links</h3>
                     <a>Users</a>
                     <a>State</a>
